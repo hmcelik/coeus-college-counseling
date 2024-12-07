@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Coeus College Counseling
 
-## Getting Started
+Welcome to Coeus College Counseling! Our mission is to provide personalized and comprehensive college counseling services to help students achieve their academic and career goals.
 
-First, run the development server:
+## Services Offered
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **College Selection**: Assistance in identifying colleges that match the student's interests, strengths, and career aspirations.
+- **Application Guidance**: Step-by-step support through the college application process, including essay writing and interview preparation.
+- **Financial Aid Counseling**: Information and advice on scholarships, grants, and other financial aid options.
+- **Career Planning**: Guidance on choosing a major and planning a career path that aligns with the student's goals.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Our Approach
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+At Coeus College Counseling, we believe in a student-centered approach. We work closely with each student to understand their unique needs and provide tailored advice and support. Our experienced counselors are dedicated to helping students navigate the complexities of the college admissions process with confidence.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contact Us
 
-## Learn More
+For more information or to schedule a consultation, please contact us at:
 
-To learn more about Next.js, take a look at the following resources:
+- **Email**: coeuscollegecounseling@gmail.com
+- **Phone**: +1 (765) 418-8988
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We look forward to helping you achieve your college and career aspirations!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Follow Us
 
-## Deploy on Vercel
+Stay connected with us on social media:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Facebook**: [Coeus College Counseling](https://www.facebook.com/coeuscollegecounseling)
+- **Twitter**: [@CoeusCounseling](https://twitter.com/CoeusCounseling)
+- **Instagram**: [@coeuscollegecounseling](https://www.instagram.com/coeuscollegecounseling)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for choosing Coeus College Counseling!
