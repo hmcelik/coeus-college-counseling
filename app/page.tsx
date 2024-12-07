@@ -13,11 +13,21 @@ export default function Home() {
   return (
     <main>
       <Navbar/>
-      <HeroSection/>
-      <AboutUs/>
-      <Services/>
-      <ProcessFlow/>
-      <TextSection/>
+      <section id="hero">
+        <HeroSection />
+      </section>
+      <section id="about">
+        <AboutUs />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section id="process">
+        <ProcessFlow />
+      </section>
+      <section id="text-section">
+        <TextSection />
+      </section>
       <Footer/>
     </main>
   );

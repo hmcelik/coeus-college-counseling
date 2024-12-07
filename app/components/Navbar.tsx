@@ -1,4 +1,3 @@
-// components/Navbar.tsx
 import React, { useState, useEffect } from "react";
 
 const Navbar: React.FC = () => {
@@ -32,10 +31,31 @@ const Navbar: React.FC = () => {
 
         {/* Navigation Links */}
         <ul className="hidden md:flex space-x-8 text-white font-medium">
-          <li className="hover:underline cursor-pointer">Home</li>
-          <li className="hover:underline cursor-pointer">About</li>
-          <li className="hover:underline cursor-pointer">Services</li>
-          <li className="hover:underline cursor-pointer">Contact</li>
+          <li>
+            <a href="#hero" className="hover:underline">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="hover:underline">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#services" className="hover:underline">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#process" className="hover:underline">
+              Process Flow
+            </a>
+          </li>
+          <li>
+            <a href="#text-section" className="hover:underline">
+              Learn More
+            </a>
+          </li>
         </ul>
 
         {/* Mobile Menu Button */}

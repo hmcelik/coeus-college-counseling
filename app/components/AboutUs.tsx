@@ -1,5 +1,6 @@
 // components/AboutUs.tsx
 import React from "react";
+import Link from "next/link";
 
 const AboutUs: React.FC = () => {
   return (
@@ -31,9 +32,11 @@ const AboutUs: React.FC = () => {
             video to change the way companies connect and communicate. We help organizations of all sizes
             humanize their communications and personalize their customer experiences.
           </p>
-          <button className="bg-blue-700 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-800 transition">
-            Sign Up for Free
-          </button>
+          <Link href="/about">
+            <button className="bg-blue-700 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-800 transition">
+              Learn more about us
+            </button>
+          </Link>
         </div>
       </div>
     </section>
