@@ -16,7 +16,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 text-base mb-6">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <a href="#" className="text-blue-700 font-medium text-lg">MORE</a>
+            <a href="/services" className="text-blue-700 font-medium text-lg">MORE</a>
           </div>
 
           {/* Card 2 */}
@@ -29,7 +29,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 text-base mb-6">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <a href="#" className="text-blue-700 font-medium text-lg">MORE</a>
+            <a href="/services" className="text-blue-700 font-medium text-lg">MORE</a>
           </div>
 
           {/* Card 3 */}
@@ -42,7 +42,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 text-base mb-6">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <a href="#" className="text-blue-700 font-medium text-lg">MORE</a>
+            <a href="/services" className="text-blue-700 font-medium text-lg">MORE</a>
           </div>
 
           {/* Card 4 */}
@@ -55,7 +55,7 @@ const Services: React.FC = () => {
             <p className="text-gray-600 text-base mb-6">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <a href="#" className="text-blue-700 font-medium text-lg">MORE</a>
+            <a href="/services" className="text-blue-700 font-medium text-lg">MORE</a>
           </div>
         </div>
       </div>

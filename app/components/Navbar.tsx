@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
         {/* Navigation Links */}
         <ul className="hidden md:flex space-x-8 text-white font-medium">
           <li>
-            <a href="#hero" className="hover:underline">
+            <a href="/#hero" className="hover:underline">
               Home
             </a>
           </li>

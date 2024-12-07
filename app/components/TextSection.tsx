@@ -1,5 +1,6 @@
 // components/TextSection.tsx
 import React from "react";
+import Link from "next/link";
 
 const TextSection: React.FC = () => {
   return (
@@ -55,9 +56,11 @@ const TextSection: React.FC = () => {
                 shift. Our courses address the core problem of communication, how and what to learn, and how to get
                 around knowledge blind-spots remains.
               </p>
+              <Link href="/contact">
               <button className="bg-yellow-500 text-white py-3 px-6 rounded-full font-medium hover:bg-yellow-600 transition">
-                View Course
+                Contact Us
               </button>
+              </Link>
             </div>
           </div>
         </div>
