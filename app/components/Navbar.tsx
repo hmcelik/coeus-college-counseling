@@ -37,22 +37,22 @@ const Navbar: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:underline">
+            <a href="/#about" className="hover:underline">
               About
             </a>
           </li>
           <li>
-            <a href="#services" className="hover:underline">
+            <a href="/#services" className="hover:underline">
               Services
             </a>
           </li>
           <li>
-            <a href="#process" className="hover:underline">
+            <a href="/#process" className="hover:underline">
               Process Flow
             </a>
           </li>
           <li>
-            <a href="#text-section" className="hover:underline">
+            <a href="/#text-section" className="hover:underline">
               Learn More
             </a>
           </li>
