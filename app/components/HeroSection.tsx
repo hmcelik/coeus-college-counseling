@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="bg-blue-500 text-white h-[115vh] md:h-screen flex flex-col-reverse md:flex-row items-center pt-64 md:pt-16 px-6 md:px-20 pb-10 relative overflow-hidden">
+    <div className="bg-blue-500 text-white h-[100vh] md:h-screen flex flex-col-reverse md:flex-row items-center pt-64 md:pt-16 px-6 md:px-20 pb-10 relative overflow-hidden">
       {/* Background Vectors and Shapes */}
       <div className="absolute top-0 left-0 w-full h-full">
         <div className="absolute bg-white opacity-10 w-60 h-60 md:w-96 md:h-96 rounded-full -top-10 -left-10"></div>

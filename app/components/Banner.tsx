@@ -1,49 +1,41 @@
-// components/HeroSection.tsx
+// components/Banner.tsx
 import React from "react";
 
-const HeroSection: React.FC = () => {
+const Banner: React.FC = () => {
   return (
-    <div className="bg-blue-500 text-white h-[110vh] md:h-screen flex flex-col-reverse md:flex-row items-center pt-64 md:pt-16 px-6 md:px-20 pb-10 relative overflow-hidden">
-      {/* Background Vectors and Shapes */}
-      <div className="absolute top-0 left-0 w-full h-full">
-        <div className="absolute bg-white opacity-10 w-60 h-60 md:w-96 md:h-96 rounded-full -top-10 -left-10"></div>
-        <div className="absolute bg-white opacity-10 w-60 h-60 md:w-[28rem] md:h-[28rem] rounded-full -bottom-20 right-10"></div>
-        <div className="absolute bg-blue-700 opacity-20 w-60 h-60 md:w-[28rem] md:h-[28rem] rounded-full top-1/4 left-1/4"></div>
-      </div>
-
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8 relative z-10">
+    <section className="bg-blue-500 text-white py-24 px-10 md:px-20 relative overflow-hidden">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         {/* Left Section */}
-        <div className="text-center md:text-left">
-          <span className="bg-blue-700 px-6 py-3 rounded-full text-md uppercase tracking-wide inline-block">University Building</span>
-          <h1 className="mt-6 text-4xl md:text-6xl font-bold leading-tight">
-            Experience the <br /> Best Education.
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+            Improve your <br /> Life again.
           </h1>
-          <p className="mt-6 text-gray-200 text-lg md:text-xl">
-            Discover our top-notch facilities and comprehensive programs designed
-            for your success.
+          <p className="mt-4 text-lg text-gray-200">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <button className="mt-8 bg-blue-700 hover:bg-blue-800 px-6 py-3 md:px-8 md:py-4 rounded-full text-lg md:text-xl font-semibold transition">
-            Learn More
+          <button className="mt-6 bg-white text-blue-500 px-6 py-3 rounded-full text-lg font-semibold transition hover:bg-gray-200">
+            Book Appointment
           </button>
         </div>
 
         {/* Right Section */}
-        <div className="relative flex justify-center">
-          <div className="w-60 h-60 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white">
+        <div className="relative">
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white mx-auto">
             <img
-              src="https://img.freepik.com/premium-photo/large-university-building-with-sign-that-says-university-america_551880-7781.jpg?semt=ais_hybrid"
-              alt="University Building"
+              src="https://img.freepik.com/free-vector/happy-student-concept-illustration_114360-8328.jpg"
+              alt="Improving Life"
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="absolute bottom-4 md:bottom-8 left-1/2 transform -translate-x-1/2 md:left-auto md:right-1/4 md:transform-none bg-blue-700 px-6 py-3 md:px-8 md:py-5 rounded-lg shadow-md">
-            <span className="text-2xl md:text-3xl font-bold">100+</span>
-            <p className="text-sm md:text-md text-gray-200">Years of Excellence</p>
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white text-blue-500 px-6 py-3 rounded-full shadow-lg">
+            <span className="text-xl font-bold">870+</span>
+            <p className="text-sm">Successful Treatments</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default HeroSection;
+export default Banner;
