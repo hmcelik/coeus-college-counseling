@@ -1,4 +1,5 @@
 // components/HeroSection.tsx
+import Link from "next/link";
 import React from "react";
 
 const HeroSection: React.FC = () => {
@@ -22,9 +23,11 @@ const HeroSection: React.FC = () => {
             Discover our top-notch facilities and comprehensive programs designed
             for your success.
           </p>
-          <button className="mt-8 bg-blue-700 hover:bg-blue-800 px-6 py-3 md:px-8 md:py-4 rounded-full text-lg md:text-xl font-semibold transition">
-            Learn More
-          </button>
+          <Link href="/about">
+            <button className="mt-8 bg-blue-700 hover:bg-blue-800 px-6 py-3 md:px-8 md:py-4 rounded-full text-lg md:text-xl font-semibold transition">
+              Learn More
+            </button>
+          </Link>
         </div>
 
         {/* Right Section */}

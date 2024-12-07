@@ -1,4 +1,5 @@
 // components/CallToAction.tsx
+import Link from "next/link";
 import React from "react";
 
 const CallToAction: React.FC = () => {
@@ -11,9 +12,11 @@ const CallToAction: React.FC = () => {
         <p className="text-lg text-gray-600 mb-8">
           The online collaborative school mentoring experience; together, anytime, anywhere.
         </p>
-        <button className="bg-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-600 transition">
-          Schedule a meeting →
-        </button>
+        <Link href="/contact">
+          <button className="bg-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-600 transition">
+            Schedule a meeting →
+          </button>
+        </Link>
         <p className="mt-4 text-gray-500 text-sm">First meeting for free</p>
       </div>
 

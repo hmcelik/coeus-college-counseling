@@ -1,4 +1,5 @@
 // components/Banner.tsx
+import Link from "next/link";
 import React from "react";
 
 const Banner: React.FC = () => {
@@ -14,9 +15,11 @@ const Banner: React.FC = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <button className="mt-6 bg-white text-blue-500 px-6 py-3 rounded-full text-lg font-semibold transition hover:bg-gray-200">
-            Book Appointment
-          </button>
+          <Link href="/contact">
+            <button className="mt-6 bg-white text-blue-500 px-6 py-3 rounded-full text-lg font-semibold transition hover:bg-gray-200">
+              Book Appointment
+            </button>
+          </Link>
         </div>
 
         {/* Right Section */}
@@ -30,7 +33,7 @@ const Banner: React.FC = () => {
           </div>
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white text-blue-500 px-6 py-3 rounded-full shadow-lg">
             <span className="text-xl font-bold">870+</span>
-            <p className="text-sm">Successful Treatments</p>
+            <p className="text-sm">Happy Students</p>
           </div>
         </div>
       </div>

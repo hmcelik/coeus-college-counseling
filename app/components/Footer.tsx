@@ -63,14 +63,14 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold text-white mb-4">Contact Information</h3>
             <ul className="space-y-3 text-base">
               <li>
-                <span className="block">The company name</span>
+                <span className="block">Coeus College Counseling</span>
                 <span className="block">Lorem ipsum dolor</span>
                 <span className="block">Glasglow Dr 40 Fe 72.</span>
               </li>
-              <li>123456789</li>
+              <li>+1 (765) 418-8988</li>
               <li>
-                <a href="mailto:contact@example.com" className="hover:text-white">
-                  contact@example.com
+                <a href="mailto:coeuscollegecounseling@gmail.com" className="hover:text-white">
+                coeuscollegecounseling@gmail.com
                 </a>
               </li>
             </ul>
