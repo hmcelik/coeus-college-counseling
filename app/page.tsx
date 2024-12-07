@@ -12,7 +12,16 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+        <Navbar
+        logo="/logo.png"
+        bgColor="bg-blue-700"
+        links={[
+          { href: "/#hero", label: "Home" },
+          { href: "/#about", label: "About" },
+          { href: "/#services", label: "Services" },
+          { href: "/#contact", label: "Contact" },
+        ]}
+      />
       <section id="hero">
         <HeroSection />
       </section>
@@ -25,7 +34,7 @@ export default function Home() {
       <section id="process">
         <ProcessFlow />
       </section>
-      <section id="text-section">
+      <section id="contact">
         <TextSection />
       </section>
       <Footer/>
