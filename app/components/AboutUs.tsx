@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const AboutUs: React.FC = () => {
   return (
-    <section className="bg-white py-32 md:py-64 px-10 md:px-32">
+    <section className="bg-white py-24 md:py-64 px-10 md:px-32">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-8">
         {/* Left Section */}
         <div className="relative">
