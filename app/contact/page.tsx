@@ -9,9 +9,18 @@ import ContactUs from "../components/ContactUs";
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+      <Navbar
+        logo="/logo.png"
+        bgColor="bg-blue-700"
+        links={[
+          { href: "/#hero", label: "Home" },
+          { href: "#contact", label: "Contact" },
+        ]}
+      />
       <Banner/>
-      <ContactUs/>
+      <section id="contact">
+        <ContactUs/>
+      </section>
       <Footer/>
     </main>
   );

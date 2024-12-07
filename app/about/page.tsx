@@ -10,10 +10,22 @@ import CallToAction from "../components/CallToAction";
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+      <Navbar
+        logo="/logo.png"
+        bgColor="bg-blue-700"
+        links={[
+          { href: "/#hero", label: "Home" },
+          { href: "#info", label: "Information" },
+          { href: "#contact", label: "Contact" },
+        ]}
+      />
       <Banner/>
-      <TextSection/>
-      <CallToAction/>
+      <section id="info">
+        <TextSection/>
+      </section>
+      <section id="contact">
+        <CallToAction/>
+      </section>
       <Footer/>
     </main>
   );

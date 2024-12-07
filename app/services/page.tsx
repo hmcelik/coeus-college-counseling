@@ -11,11 +11,26 @@ import ShortText from "../components/ShortText";
 export default function Home() {
   return (
     <main>
-      <Navbar/>
+      <Navbar
+        logo="/logo.png"
+        bgColor="bg-blue-700"
+        links={[
+          { href: "/#hero", label: "Home" },
+          { href: "#contact", label: "Contact" },
+          { href: "#info", label: "Information" },
+          { href: "#services", label: "Services" },
+        ]}
+      />
       <Banner/>
-      <TextSection/>
-      <TwoColumns/>
-      <ShortText/>
+      <section id="contact">
+        <TextSection/>
+      </section>
+      <section id="info">
+        <TwoColumns/>
+      </section>
+      <section id="services">
+        <ShortText/>
+      </section>
       <Footer/>
     </main>
   );

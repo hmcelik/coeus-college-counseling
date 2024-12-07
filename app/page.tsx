@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main>
-        <Navbar
+      <Navbar
         logo="/logo.png"
         bgColor="bg-blue-700"
         links={[
